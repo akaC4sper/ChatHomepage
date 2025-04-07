@@ -1,4 +1,6 @@
-<!-- index.html -->
+mkdir meine-homepage
+cd meine-homepage
+echo <!-- index.html -->
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -34,3 +36,10 @@
   <p>Diese Homepage ist mit GitHub Pages gehostet. Bald gibt's hier mehr zu sehen. 😎</p>
 </body>
 </html>
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/DEINUSERNAME/meine-homepage.git
+git push -u origin main
