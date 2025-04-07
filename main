@@ -1,0 +1,9 @@
+mkdir meine-homepage
+cd meine-homepage
+echo "<hier kommt dein HTML rein>" > index.html  # oder kopiere einfach den obigen Code manuell rein
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/DEINUSERNAME/meine-homepage.git
+git push -u origin main
